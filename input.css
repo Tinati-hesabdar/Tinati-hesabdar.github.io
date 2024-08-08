@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: 'bidad_b';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(/font/bidad/Bidad-Bold.ttf) format('ttf');
+    }
+    @font-face {
+        font-family: 'bidad_l';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/font/bidad/Bidad-Light.ttf) format('ttf');
+      }
+      @font-face {
+        font-family: 'gohar_b';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/font/gohar/Gohar-Bold.ttf) format('ttf');
+      }
+      @font-face {
+        font-family: 'gohar_t';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/font/gohar/Gohar-Thin.ttfe) format('ttf');
+      }
+      @font-face {
+        font-family: 'gohar_m';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/font/gohar/Gohar-Medium.ttf) format('ttf');
+      }
+      @font-face {
+        font-family: 'iran_b';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/font/iransans/IRANSansWeb_Bold.ttf) format('ttf');
+      }
+      @font-face {
+        font-family: 'iran_l';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/font/iransans/IRANSansWeb_Light.ttf) format('ttf');
+      }
+      @font-face {
+        font-family: 'iran_m';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/font/iransans/IRANSansWeb_Medium.ttf) format('ttf');
+      }
+
+  }

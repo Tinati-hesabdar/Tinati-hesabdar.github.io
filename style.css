@@ -1,0 +1,46 @@
+@keyframes ticker {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(+100%); }
+}
+
+.ticker-wrapper {
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: rgb(63 131 248 / 0.5);
+    color: black;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.ticker-content {
+    display: flex; /* تغییر به flex برای قرار دادن محتواها در کنار هم */
+    animation: ticker 70s linear infinite;
+}
+
+.ticker-content-inner {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
