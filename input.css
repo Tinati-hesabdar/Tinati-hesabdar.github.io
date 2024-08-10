@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family:bidad_B ;
+    src: url(/font/bidad/Bidad-Bold.ttf);
+}
+@font-face {
+    font-family:bidad_L ;
+    src: url(/font/bidad/Bidad-Light.ttf);
+}
+@font-face {
+    font-family:bidad_M ;
+    src: url(/font/bidad/Bidad-Medium.ttf);
+}
+@font-face {
+    font-family:bidad_T ;
+    src: url(/font/bidad/Bidad-Thin.ttf);
+}
+@font-face {
+    font-family:gohar_B ;
+    src: url(/font/gohar/Gohar-Bold.ttf);
+}
+@font-face {
+    font-family:gohar_L ;
+    src: url(/font/gohar/Gohar-Light.ttf);
+}
+@font-face {
+    font-family:gohar_M ;
+    src: url(/font/gohar/Gohar-Medium.ttf);
+}
+@font-face {
+    font-family:gohar_T ;
+    src: url(/font/gohar/Gohar-Thin.ttf);
+}
+@font-face {
+    font-family:holda;
+    src: url(/font/holda/Hilda\ @fontraigannn.ttf);
+}
+@font-face {
+    font-family:iransans_B;
+    src: url(/font/iransans/IRANSansWeb_Bold.ttf);
+}
+@font-face {
+    font-family:iransans_M;
+    src: url(/font/iransans/IRANSansWeb_Medium.ttf);
+}
+@font-face {
+    font-family:iransans_L;
+    src: url(/font/iransans/IRANSansWeb_Light.ttf);
+}
+@font-face {
+    font-family:kalme_B;
+    src: url(/font/kalame/Kalameh-Bold.ttf);
+}
+@font-face {
+    font-family:kalme_L;
+    src: url(/font/kalame/Kalameh-Light.ttf);
+}
+@font-face {
+    font-family:kalme_M;
+    src: url(/font/kalame/Kalameh-Medium.ttf);
+}
+@font-face {
+    font-family:kalme_T;
+    src: url(/font/kalame/Kalameh-Thin.ttf);
+}
+@font-face {
+    font-family:pinar_B;
+    src: url(/font/pinar/PINAR-DS3-BOLD.TTF);
+}
+@font-face {
+    font-family:pinar_L;
+    src: url(/font/pinar/PINAR-DS3-LIGHT.TTF);
+}
+@font-face {
+    font-family:pinar_M;
+    src: url(/font/pinar/PINAR-DS3-MEDIUM.TTF);
+}
+@font-face {
+    font-family:pinar_T;
+    src: url(/font/pinar/PINAR-REGULAR.TTF);
+}
+}
